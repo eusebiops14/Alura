@@ -1,0 +1,26 @@
+.app {
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100vh auto;
+}
+
+.cabecalho {
+    
+    grid-area: cabecalho; /*Define que o cabecalho deve estar na primeira linha do css- vide linha 6 */
+}
+ 
+.conteudo {
+    
+    grid-area: conteudo;
+}
+
+.rodape {
+    
+    grid-area: rodape;
+}
