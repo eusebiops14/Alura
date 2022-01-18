@@ -6,7 +6,7 @@ export class ContaCorrente extends Conta { //tudo que esta disponivel na classe 
    
     //construtor
     constructor(cliente,agencia) {
-        super(0,cliente,agencia); //super faz referencia a classe mae (nessa caso a classe mae é a classe Conta)
+        super(0,cliente,agencia); //super faz referencia a classe mae (nessa caso a classe mae é a classe Conta)- zero é o saldo inicial
         ContaCorrente.numeroDeContas += 1; //visivel fora da classe                     
     }
 
