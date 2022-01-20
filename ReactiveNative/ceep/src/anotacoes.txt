@@ -1,0 +1,12 @@
+1- Instalar NODE (nvm- node version management: pacote para gerenteciamento de versoes do node)
+2- no terminal, instalar a biblioteca do reactive native usando o comando: "npx create-react-app ceep" (cepp é o nome do projeto, poderia ser qualquer outro)
+3- para rodar um servidor local e mostrar a pagina renderizada usar o comando de inicialização da aplicação: "npm start"
+4- Documentação react: https://pt-br.reactjs.org/docs/getting-started.html
+5- app.js é o ponto de entrada
+    O React usa a div="root" no arquivo index.js, inserindo os elementos declarados em JSX do arquivo App.js.
+    Exatamente! O React utiliza esse arquivo index.js para inserir todo o conteúdo JSX do App.js no index.html, tornando possível que esse template seja exibido no navegador.
+    Ele faz isso através de um método interno do ReactDOM chamado render() (que também utiliza JSX ao passar < App /> como parâmetro).
+6- Pluguin util para react:
+    -Simple React Snippets: atalhos 
+        - imr : importa o componet react;
+        - cc : cria uma classe
