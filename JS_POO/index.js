@@ -28,9 +28,13 @@ console.log(contaSalario);*/
 
 const diretor = new Diretor("Rodrigo",10000,12345678900);
 const gerente = new Gerente("Ricardo",5000,123456789501);
+const cliente = new Cliente("a","00","1234");
 
 diretor.cadastrarSenha(123456789);
 
-const estaLogado = SistemaAutenticacao.login(diretor,"123456789");
-console.log(estaLogado);
+const estaLogadoDiretor = SistemaAutenticacao.login(diretor,"123456789");
+const estaLogadoCliente = SistemaAutenticacao.login(cliente,"123456789");
+
+
+console.log(estaLogadoDiretor , estaLogadoCliente);
 console.log("FIM");
